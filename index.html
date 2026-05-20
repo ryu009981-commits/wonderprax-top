@@ -80,17 +80,9 @@
   .brand{
     display:flex;align-items:center;gap:12px;
   }
-  .brand-mark{
-    width:36px;height:36px;border:1.5px solid var(--paper);
-    display:grid;place-items:center;font-family:var(--sans);font-weight:900;font-size:18px;color:var(--paper);
-    transform:rotate(-4deg);
-    background:var(--ink);
+  .brand img{
+    height:26px;width:auto;display:block;
   }
-  .brand-mark span{transform:rotate(4deg);display:block;}
-  .brand-name{
-    font-family:var(--sans);font-weight:900;font-size:18px;letter-spacing:.02em;color:var(--paper);
-  }
-  .brand-name b{color:var(--red);}
   nav.primary{
     display:flex;align-items:center;gap:36px;
   }
@@ -658,11 +650,8 @@
 <!-- ════════ PASSWORD GATE ════════ -->
 <div id="wp-gate" style="position:fixed;inset:0;z-index:9999;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:'Inter','Helvetica Neue',sans-serif;">
   <div style="width:100%;max-width:420px;padding:48px 40px;text-align:center;">
-    <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:36px;">
-      <span style="width:36px;height:36px;border:1.5px solid #f4f1ec;display:grid;place-items:center;font-weight:900;font-size:18px;color:#f4f1ec;transform:rotate(-4deg);background:#0a0a0a;">
-        <span style="transform:rotate(4deg);display:block;">W</span>
-      </span>
-      <span style="font-weight:900;font-size:18px;color:#f4f1ec;letter-spacing:.02em;">Wonder<b style="color:#e63946;">Prax</b></span>
+    <div style="display:flex;align-items:center;justify-content:center;margin-bottom:36px;">
+      <img src="images/wp_logo.png" alt="WonderPrax" style="height:28px;width:auto;">
     </div>
     <div style="font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.24em;color:#e63946;font-weight:700;margin-bottom:14px;">— PRIVATE PREVIEW</div>
     <h1 style="font-weight:900;font-size:24px;color:#f4f1ec;letter-spacing:-.01em;line-height:1.4;margin-bottom:10px;font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;">パスワードを入力してください</h1>
@@ -714,8 +703,7 @@
 <!-- ════════ HEADER ════════ -->
 <header class="site" data-screen-label="Header">
   <a class="brand" href="#top" aria-label="WonderPrax">
-    <span class="brand-mark"><span>W</span></span>
-    <span class="brand-name">Wonder<b>Prax</b></span>
+    <img src="images/wp_logo.png" alt="WonderPrax">
   </a>
   <nav class="primary">
     <a class="nav-item" href="#about">私たちについて</a>
@@ -1164,8 +1152,7 @@
   <div class="footer-top">
     <div class="f-brand">
       <a class="brand" href="#top">
-        <span class="brand-mark"><span>W</span></span>
-        <span class="brand-name">Wonder<b>Prax</b></span>
+        <img src="images/wp_logo.png" alt="WonderPrax" style="height:24px;">
       </a>
       <div class="f-tag">WE DON'T<br><em>JUST ADVISE.</em><br>WE EXECUTE.</div>
       <div class="f-addr">
